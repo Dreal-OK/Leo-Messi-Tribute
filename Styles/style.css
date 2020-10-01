@@ -24,10 +24,12 @@ body {
 #img-div {
   background: #070744;
   padding: 0 1rem;
+  width: 80%;
 }
 
 #image {
   border: 2px solid #ccc;
+  max-width: 80%;
  
 }
 

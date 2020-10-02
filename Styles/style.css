@@ -22,9 +22,19 @@ body {
 }
 
 #img-div {
-  background: #070744;
+  background: rgba(0, 0, 0, .2);
   padding: 0 1rem;
+  position: relative;
 }
+
+/* #img-div::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: #021f55;
+  z-index: -1;
+} */
 
 #image {
   border: 2px solid #ccc;
@@ -44,8 +54,9 @@ body {
 }
 
 #life-timeline {
-  width: 100%;
- 
+  width: 80%;
+  display: block;
+  margin: auto;
 }
 
 #life-timeline .date {
